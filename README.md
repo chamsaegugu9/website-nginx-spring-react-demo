@@ -1,7 +1,7 @@
 # website-nginx-spring-react-demo
 
-React 
+# React
 npm install 
 
-nginx
+# nginx
 temp 파일 만들어주기
