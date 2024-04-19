@@ -1,0 +1,57 @@
+.DisplayBoard-layout-out {
+    position: relative;
+}
+
+.DisplayBoard-layout-in {
+    position: relative;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 1280px;
+    height: 220px;
+}
+
+.DisplayBoard-wrap {
+    display: inline-block;
+    position: absolute;
+}
+
+.DisplayBoard-text-b {
+    display: inline-block;
+    color: black;
+    font-size: 160px;
+    font-weight: bold;
+    text-shadow:
+    2px 2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    -2px -2px 0 white
+    ;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 22px;
+}
+
+.DisplayBoard-text-w {
+    display: inline-block;
+    color: white;
+    font-size: 160px;
+    font-weight: bold;
+    text-shadow:
+    2px 2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    -2px -2px 0 white
+    ;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 22px;
+}
+
+.DisplayBoard-img {
+    display: inline-block;
+    height: 160px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

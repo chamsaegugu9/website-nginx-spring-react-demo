@@ -1,0 +1,46 @@
+.HelloBeerListLayout-layout-out {
+    position: relative;
+}
+
+.HelloBeerListLayout-layout-in {
+    position: relative;
+    margin-left: auto;
+    margin-top: auto;
+    width: 1280px;
+}
+
+.HelloBeerListLayout-wrap {
+    position: relative;
+    height: 453px;
+}
+
+.HelloBeerListLayout-text1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    top: 138px;
+    z-index: 15;
+}
+
+.HelloBeerListLayout-text2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: white;
+    top: 210px;
+    text-align: center;
+    z-index: 15;
+}
+
+.HelloBeerListLayout-img1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 466px;
+    height: 453px;
+    z-index: 10;
+}

@@ -1,0 +1,77 @@
+.Footer-layout-out {
+    position: relative;
+    height: 353px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.Footer-layout-in {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+}
+
+.Footer-name1 {
+    position: absolute;
+    top: 50px;
+    left: 228px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 
+    2px 2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    -2px -2px 0 black
+    ;
+}
+
+.Footer-name2 {
+    position: absolute;
+    top: 102px;
+    left: 272px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 
+    2px 2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    -2px -2px 0 white
+    ;
+}
+
+.Footer-address {
+    position: absolute;
+    left: 228px;
+    top: 182px;
+    color: white;
+}
+
+.Footer-tel {
+    position: absolute;
+    left: 228px;
+    top: 209px;
+    color: white;
+}
+
+.Footer-email {
+    position: absolute;
+    left: 228px;
+    top: 236px;
+    color: white;
+}
+
+.Footer-text1 {
+    color: #CDCDCD;
+}
+
+.Footer-hr {
+    position: absolute;
+    top: 278px;
+    left: 50%;
+    width: 917px;
+    height: 1px;
+    background-color: white;
+    transform: translateX(-50%);
+}

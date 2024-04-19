@@ -1,0 +1,96 @@
+.HelloBeerDetailLayout-layout-out {
+    position: relative;
+    min-height: calc(832px - 100px);
+}
+
+.HelloBeerDetailLayout-layout-in {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+}
+
+.HelloBeerDetailLayout-img {
+    position: absolute;
+    left: 456px;
+    top: 87px;
+}
+
+.HelloBeerDetailLayout-wrap-name {
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    left: 53px;
+}
+
+.HelloDetailLayout-name1 {
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 
+    1px 1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    -1px -1px 0 white
+    ;
+}
+
+.HelloDetailLayout-name2 {
+    color: black;
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 
+    1px 1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    -1px -1px 0 white
+    ;
+}
+
+.HelloBeerDetailLayout-wrap-alchol {
+    box-sizing: border-box;
+    position: absolute;
+    left: 916px;
+    top: 24px;
+    width: 306px;
+    height: 61px;
+    background-color: #211919;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.HelloBeerDetailLayout-alchol1 {
+    position: absolute;
+    top: 50%;
+    left: 48px;
+    transform: translateY(-55%);
+}
+
+.HelloBeerDetailLayout-alchol2 {
+    position: absolute;
+    top: 50%;
+    left: 182px;
+    transform: translateY(-55%);
+}
+
+.HelloBeerDetailLayout-wrap-comment {
+    position: absolute;
+    left: 922px;
+    top: 101px;
+    width: 300px;
+    height: 170px;
+}
+
+.HelloBeerDetailLayout-comment {
+    color: white;
+    font-size: 18px;
+}
+
+.HelloBeerDetailLayout-wrap-spec {
+    position: absolute;
+    left: 920px;
+    top: 304px;
+}

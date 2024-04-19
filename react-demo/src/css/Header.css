@@ -1,0 +1,35 @@
+.header-layout-out {
+    width: 100%;
+}
+
+.header-layout-in {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    height: 100px;
+}
+
+.header-logo-layout {
+    display: inline-block;
+    position: absolute;
+    left: 53px;
+    top: 7px;
+    /* vertical-align: middle; */
+}
+
+.header-logo {
+    /* background-image: url("http://localhost/api/beer/img/logo.png"); */
+    width: 105px;
+    height: 80px;
+    display: block;
+}
+
+.header-navi-layout {
+    position: absolute;
+    display: inline-block;
+    left: 365px;
+    top: 24px;
+    height: 45px;
+    width: calc(1225px - 365px);
+}
